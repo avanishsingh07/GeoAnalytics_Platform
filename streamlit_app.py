@@ -5,7 +5,7 @@ import numpy as np
 from io import StringIO
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 import altair as alt
 import plotly.express as px
 from sklearn.linear_model import LinearRegression
