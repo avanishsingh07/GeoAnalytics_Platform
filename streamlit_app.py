@@ -115,7 +115,7 @@ def main():
         secondaryBackgroundColor="#F0F2F6"
         textColor="#262730"
         font="sans serif"
-        st.info('''Innovative Machine Learning Enthusiast with a proven track record of evaluating Machine 
+        st.info('''I'm Avanish Machine Learning Enthusiast with a proven track record of evaluating Machine 
             Learning model and applying knowledge of Machine Learning algorithm in a beneficial way. 
             Curious about the use of Machine Learning and Artificial Intelligence in cybersecurity''')
         st.write("-------------------------------------------------------------------------------------------")
