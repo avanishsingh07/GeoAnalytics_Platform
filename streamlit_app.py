@@ -126,6 +126,7 @@ def main():
         st.write("For phone users:-----👇")
         url='https://raw.githubusercontent.com/avanishsingh07/GeoAnalytics_Platform/main/photo_2022-05-29_19-32-25.jpg'
         im = Image.open(requests.get(url, stream=True).raw)
+        st.image(im)
     if choice=="annual changes in forest area":
         #list_years = [2022, 2023, 2024, 2025, 2026,2027, 2028,2029,2030]
         list_years=st.multiselect("Please select numbers", [2022, 2023, 2024, 2025, 2026,2027, 2028,2029,2030])
