@@ -119,7 +119,7 @@ def main():
         st.write(list_years)
         
         if st.button("Process"):
-            file = 'annual-change-forest-area.csv'
+            file = 'https://raw.githubusercontent.com/avanishsingh07/GeoAnalytics_Platform/main/annual-change-forest-area.csv'
             st.plotly_chart(plot_net_conv('world','Net Forest Conversion across the world',file), use_container_width=True)
             dataframe = pd.read_csv(file)
             st.write(dataframe.head(5))
@@ -136,7 +136,7 @@ def main():
         st.write(list_years)
         
         if st.button("Process"):
-            file = 'broadband-penetration-by-country.csv'
+            file = 'https://raw.githubusercontent.com/avanishsingh07/GeoAnalytics_Platform/main/broadband-penetration-by-country.csv'
             st.plotly_chart(plot_net_for_Internetuses('world','Internet Usage across the world',file), use_container_width=True)
             dataframe = pd.read_csv(file)
             st.write(dataframe.head(5))
