@@ -6,6 +6,8 @@ from io import StringIO
 import pandas as pd
 import matplotlib.pyplot as plt
 #import seaborn as sns
+from PIL import Image
+import requests
 import altair as alt
 import plotly.express as px
 from sklearn.linear_model import LinearRegression
@@ -113,6 +115,17 @@ def main():
         secondaryBackgroundColor="#F0F2F6"
         textColor="#262730"
         font="sans serif"
+        st.info('''Innovative Machine Learning Enthusiast with a proven track record of evaluating Machine 
+            Learning model and applying knowledge of Machine Learning algorithm in a beneficial way. 
+            Curious about the use of Machine Learning and Artificial Intelligence in cybersecurity''')
+        st.write("-------------------------------------------------------------------------------------------")
+        st.info("How to use 👇👇")
+        #video_file = open('https://youtu.be/ZsT6GubF1vg', 'rb')
+        st.write("Visit on [YouTube](https://youtu.be/ZsT6GubF1vg)")
+        plt.rcParams["figure.autolayout"] = True
+        st.write("For phone users:-----👇")
+        url='https://raw.githubusercontent.com/avanishsingh07/GeoAnalytics_Platform/main/photo_2022-05-29_19-32-25.jpg'
+        im = Image.open(requests.get(url, stream=True).raw)
     if choice=="annual changes in forest area":
         #list_years = [2022, 2023, 2024, 2025, 2026,2027, 2028,2029,2030]
         list_years=st.multiselect("Please select numbers", [2022, 2023, 2024, 2025, 2026,2027, 2028,2029,2030])
