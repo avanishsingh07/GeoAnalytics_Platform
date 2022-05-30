@@ -115,9 +115,10 @@ def main():
         secondaryBackgroundColor="#F0F2F6"
         textColor="#262730"
         font="sans serif"
-        st.info('''I'm Avanish Machine Learning Enthusiast with a proven track record of evaluating Machine 
-            Learning model and applying knowledge of Machine Learning algorithm in a beneficial way. 
-            Curious about the use of Machine Learning and Artificial Intelligence in cybersecurity''')
+        st.info('''Our Geo-Analytics Platformprovides a standard system to work with geo-referenced data in an intuitive,
+                map-based format. This enabled you to view their data as a Web-based visualization, with data
+                points linked to locations on a map designated by zip codes, latitude, longitude, or street addresses.
+                ''')
         st.write("-------------------------------------------------------------------------------------------")
         st.info("How to use 👇👇")
         #video_file = open('https://youtu.be/ZsT6GubF1vg', 'rb')
@@ -196,14 +197,16 @@ def main():
                 
     else:
         st.subheader("About")
+        st.info('''I'm Avanish, Machine Learning Enthusiast. 
+            Curious about the use of Machine Learning and Artificial Intelligence in cybersecurity''')
         st.text("Quotes by Avanish")
         st.info("When your models work efficently, It's hot as Fuck...")
         font="monospace"
         st.subheader('created by AVANISH')
-        st.write("contact on [Instagram](https://www.instagram.com/i.m_avanish/)")
-        st.write("contact on [GitHub](https://github.com/avanishsingh07)")
-        st.write("contact on [LinkedIn](https://www.linkedin.com/in/avanish-singh-763aa81b2/)")
-        st.info("Phone No.:- 7800105545")
+        st.write("Let's connect on [Instagram](https://www.instagram.com/i.m_avanish/)")
+        st.write("Visit my [GitHub](https://github.com/avanishsingh07)")
+        st.write("Let's connect on [LinkedIn](https://www.linkedin.com/in/avanish-singh-763aa81b2/)")
+        st.info("📱    - 7800105545")
         st.text("work in progress")
 if __name__ == '__main__':
     main()
