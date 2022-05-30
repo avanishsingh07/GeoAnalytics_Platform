@@ -115,7 +115,7 @@ def main():
         secondaryBackgroundColor="#F0F2F6"
         textColor="#262730"
         font="sans serif"
-        st.info('''Our Geo-Analytics Platformprovides a standard system to work with geo-referenced data in an intuitive,
+        st.info('''Our Geo-Analytics Platform provides a standard system to work with geo-referenced data in an intuitive,
                 map-based format. This enabled you to view their data as a Web-based visualization, with data
                 points linked to locations on a map designated by zip codes, latitude, longitude, or street addresses.
                 ''')
